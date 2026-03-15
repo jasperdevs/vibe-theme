@@ -330,7 +330,7 @@
       "settings": { "foreground": "#5a5a5a" }
     },
     {
-      "scope": ["constant.language", "constant.character.escape"],
+      "scope": ["constant.language", "constant.character.escape", "constant.other", "support.constant", "support.constant.builtin"],
       "settings": { "foreground": "#414141" }
     },
     {
@@ -342,11 +342,11 @@
       "settings": { "foreground": "#5a5a5a" }
     },
     {
-      "scope": ["entity.name.function", "support.function"],
-      "settings": { "foreground": "#2b2b2b" }
+      "scope": ["entity.name.function", "support.function", "support.function.builtin", "support.function.misc", "meta.function-call"],
+      "settings": { "foreground": "#1a1a1a" }
     },
     {
-      "scope": ["entity.name.type", "entity.name.class", "entity.name.namespace", "support.type", "support.class"],
+      "scope": ["entity.name.type", "entity.name.class", "entity.name.namespace", "support.type", "support.type.builtin", "support.class", "storage.type.annotation"],
       "settings": { "foreground": "#414141" }
     },
     {
@@ -364,6 +364,10 @@
     {
       "scope": ["meta.object-literal.key", "support.type.property-name", "variable.other.property"],
       "settings": { "foreground": "#414141" }
+    },
+    {
+      "scope": ["meta.indexed-name", "meta.attribute.python", "meta.function-call.python"],
+      "settings": { "foreground": "#1a1a1a" }
     },
     {
       "scope": "entity.name.tag",
@@ -431,20 +435,31 @@
     }
   ],
   "semanticTokenColors": {
+    "variable": "#1a1a1a",
     "newOperator": "#5a5a5a",
+    "operator": "#5a5a5a",
     "stringLiteral": "#5a5a5a",
     "numberLiteral": "#5a5a5a",
     "customLiteral": "#5a5a5a",
+    "boolean": "#414141",
+    "regexp": "#5a5a5a",
     "variable.declaration": "#1a1a1a",
     "variable.readonly": "#2b2b2b",
-    "function.declaration": "#2b2b2b",
+    "variable.defaultLibrary": "#1a1a1a",
+    "function": "#1a1a1a",
+    "function.declaration": "#1a1a1a",
+    "function.defaultLibrary": "#1a1a1a",
+    "method": "#1a1a1a",
+    "method.defaultLibrary": "#1a1a1a",
     "parameter": "#1a1a1a",
     "property": "#414141",
     "type": "#414141",
+    "type.defaultLibrary": "#414141",
     "class": "#414141",
     "interface": "#414141",
     "enum": "#414141",
     "enumMember": "#2b2b2b",
-    "namespace": "#414141"
+    "namespace": "#414141",
+    "keyword": "#414141"
   }
 }

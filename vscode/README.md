@@ -1,52 +1,22 @@
-# Vibe Theme
+# Vibe Theme for VS Code
 
-Monochrome theme for vibecoders. Syntax is grayscale. Diffs, errors, and warnings get color.
+Minimal monochrome themes for VS Code.
 
-Works with OpenCode, VS Code, and Windows Terminal.
+- Grayscale syntax
+- Colored diffs, errors, warnings, and git states
+- Dark and light variants
 
-## Quick install
+## Install
 
-Paste this into your AI coding agent:
-
-```
-Install the Vibe Theme from https://github.com/jasprcodess/vibe-theme on everything I use.
-```
-
-## OpenCode
+Install from the VS Code Marketplace when published, or package locally:
 
 ```bash
-mkdir -p ~/.config/opencode/themes
-cp opencode/vibe-dark.json opencode/vibe-light.json ~/.config/opencode/themes/
-```
-
-Run `/theme` and pick `vibe-dark` or `vibe-light`.
-
-## Windows Terminal
-
-Open settings JSON (`Ctrl+,` > Open JSON file). Add the contents of `windows-terminal/vibe-dark.json` to the `schemes` array. Then set it:
-
-```json
-"profiles": {
-  "defaults": {
-    "colorScheme": "Vibe Dark"
-  }
-}
-```
-
-Any terminal tool (Claude Code, Codex, etc.) inherits these colors automatically.
-
-## VS Code
-
-Install from the [VS Code Marketplace](https://marketplace.visualstudio.com/) (coming soon), or manually:
-
-```bash
-cd vscode
 npx @vscode/vsce package
 code --install-extension vibe-theme-1.0.0.vsix
 ```
 
-Then `Ctrl+K Ctrl+T` and pick "Vibe Dark" or "Vibe Light".
+Then open the theme picker and choose `Vibe Dark` or `Vibe Light`.
 
-## License
+## Source
 
-MIT
+Full repo: https://github.com/jasprcodess/vibe-theme
