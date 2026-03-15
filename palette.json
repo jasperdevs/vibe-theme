@@ -1,0 +1,43 @@
+{
+  "name": "Vibe",
+  "description": "Minimal monochrome palette with color reserved for diffs and state",
+  "dark": {
+    "background": "#161616",
+    "panel": "#1c1c1c",
+    "element": "#232323",
+    "border": "#282828",
+    "borderSubtle": "#333333",
+    "borderActive": "#404040",
+    "text": "#dcdcdc",
+    "textMuted": "#8a8a8a",
+    "comment": "#4a4a4a",
+    "keyword": "#a8a8a8",
+    "string": "#8a8a8a",
+    "error": "#c45050",
+    "success": "#5aaa5a",
+    "warning": "#c4a840"
+  },
+  "light": {
+    "background": "#f0f0f0",
+    "panel": "#e6e6e6",
+    "element": "#dbdbdb",
+    "border": "#cccccc",
+    "borderSubtle": "#bbbbbb",
+    "borderActive": "#a0a0a0",
+    "text": "#1a1a1a",
+    "textMuted": "#5a5a5a",
+    "comment": "#909090",
+    "keyword": "#414141",
+    "string": "#5a5a5a",
+    "error": "#b83a3a",
+    "success": "#3a7a3a",
+    "warning": "#8a7520"
+  },
+  "rules": {
+    "syntax": "mostly grayscale",
+    "diffs": "colored",
+    "git": "colored",
+    "diagnostics": "colored",
+    "terminalAnsi": "usable but subdued"
+  }
+}
