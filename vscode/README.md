@@ -17,6 +17,4 @@ code --install-extension vibe-theme-1.0.0.vsix
 
 Then open the theme picker and choose `Vibe Dark` or `Vibe Light`.
 
-## Source
-
-Full repo: https://github.com/jasprcodess/vibe-theme
+Source: https://github.com/jasprcodess/vibe-theme

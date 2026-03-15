@@ -1,12 +1,16 @@
 # Vibe Theme
 
-Minimal monochrome themes for OpenCode, VS Code, and Windows Terminal.
+Minimal monochrome theme set built around one rule: keep syntax quiet, keep diffs and states visible.
 
 ![Vibe Theme Preview](assets/preview.png)
 
 - Syntax stays grayscale
 - Diffs, errors, warnings, and git states keep color
 - Includes dark and light variants
+
+This repo includes ready-to-use files for OpenCode, VS Code, and Windows Terminal.
+
+Windows Terminal also affects terminal-based tools that inherit your terminal colors.
 
 ## Install
 
@@ -44,17 +48,11 @@ code --install-extension vibe-theme-1.0.0.vsix
 
 Then open the theme picker and choose `Vibe Dark` or `Vibe Light`.
 
-More setup details:
+## Included
 
 - [OpenCode](docs/opencode.md)
 - [VS Code](docs/vscode.md)
 - [Windows Terminal](docs/windows-terminal.md)
-
-## Prompt For Your AI
-
-```text
-Install the Vibe Theme from https://github.com/jasprcodess/vibe-theme across my setup. Apply the matching theme to OpenCode, VS Code, and Windows Terminal. Use Vibe Dark unless I already use light themes.
-```
 
 ## License
 
