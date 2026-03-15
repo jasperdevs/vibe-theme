@@ -15,7 +15,7 @@ Terminal tools that inherit terminal colors will pick up the terminal scheme. An
 ## Prompt
 
 ```text
-Install Vibe Theme across my setup. Use the included ports where available, use the terminal scheme for terminal-based tools, and default to Vibe Dark unless I already use light themes.
+Install Vibe Theme from https://github.com/jasprcodess/vibe-theme across my setup. Use the included ports where available, use the terminal scheme for terminal-based tools, and default to Vibe Dark unless I already use light themes.
 ```
 
 ## Install
