@@ -1,60 +1,43 @@
 # Vibe Theme
 
-Monochrome theme for vibecoders. Syntax is grayscale. Diffs, errors, and warnings get color. Everything else stays quiet.
+Monochrome theme for vibecoders. Syntax is grayscale. Diffs, errors, and warnings get color.
 
-Works with OpenCode, VS Code, Windows Terminal (which means Claude Code and Codex also get themed), and Codex syntax highlighting.
+Works with OpenCode, VS Code, and Windows Terminal.
 
 ## Quick install
 
-Paste this into Claude Code, Codex, OpenCode, or any AI coding agent:
+Paste this into your AI coding agent:
 
 ```
-Install the Vibe Theme from https://github.com/jasprcodess/vibe-theme on everything I use. Clone the repo, then:
-- Copy opencode/vibe-dark.json and opencode/vibe-light.json to ~/.config/opencode/themes/
-- Copy codex/vibe-dark.tmTheme to ~/.codex/themes/
-- Add the Windows Terminal scheme from windows-terminal/vibe-dark.json to my Windows Terminal settings.json schemes array and set it as the default colorScheme
-- For VS Code, install the extension from the vscode/ folder using "code --install-extension" after packaging with vsce, or just copy the theme files manually
+Install the Vibe Theme from https://github.com/jasprcodess/vibe-theme on everything I use.
 ```
 
-## Manual install
-
-### OpenCode
+## OpenCode
 
 ```bash
 mkdir -p ~/.config/opencode/themes
 cp opencode/vibe-dark.json opencode/vibe-light.json ~/.config/opencode/themes/
 ```
 
-Then run `/theme` in OpenCode and pick `vibe-dark` or `vibe-light`.
+Run `/theme` and pick `vibe-dark` or `vibe-light`.
 
-### Windows Terminal (also themes Claude Code + Codex)
+## Windows Terminal
 
-Open your Windows Terminal settings (`Ctrl+,` > Open JSON file) and add the contents of `windows-terminal/vibe-dark.json` (or `vibe-light.json`) to the `schemes` array. Then set it on your profile:
+Open settings JSON (`Ctrl+,` > Open JSON file). Add the contents of `windows-terminal/vibe-dark.json` to the `schemes` array. Then set it:
 
 ```json
-{
-  "profiles": {
-    "defaults": {
-      "colorScheme": "Vibe Dark"
-    }
+"profiles": {
+  "defaults": {
+    "colorScheme": "Vibe Dark"
   }
 }
 ```
 
-Claude Code and Codex both inherit terminal colors, so this themes them too.
+Any terminal tool (Claude Code, Codex, etc.) inherits these colors automatically.
 
-### Codex syntax highlighting
+## VS Code
 
-```bash
-mkdir -p ~/.codex/themes
-cp codex/vibe-dark.tmTheme ~/.codex/themes/
-```
-
-Then run `/theme` in Codex and pick `vibe-dark`.
-
-### VS Code
-
-From the `vscode/` folder:
+Install from the [VS Code Marketplace](https://marketplace.visualstudio.com/) (coming soon), or manually:
 
 ```bash
 cd vscode
@@ -62,20 +45,7 @@ npx @vscode/vsce package
 code --install-extension vibe-theme-1.0.0.vsix
 ```
 
-Then open VS Code, `Ctrl+K Ctrl+T`, pick "Vibe Dark" or "Vibe Light".
-
-## What gets color
-
-- Diffs (green = added, red = removed)
-- Errors, warnings, success indicators
-- Git decorations in the file tree
-- Terminal red/green/yellow for commands that use them
-
-## What stays monochrome
-
-- All syntax highlighting (keywords, functions, strings, variables, types, operators)
-- UI chrome (backgrounds, borders, tabs, sidebar)
-- Markdown rendering
+Then `Ctrl+K Ctrl+T` and pick "Vibe Dark" or "Vibe Light".
 
 ## License
 
