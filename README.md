@@ -6,9 +6,9 @@ A minimal monochrome theme set.
 
 Syntax stays grayscale. Diffs, errors, warnings, and git states keep color.
 
-This repo ships ports for OpenCode, VS Code, and Windows Terminal.
+This repo ships a few ready-to-use ports and a shared palette for making more.
 
-Terminal tools that inherit your terminal colors will pick up the Windows Terminal scheme. Anything else needs its own port.
+Terminal tools that inherit terminal colors will pick up the terminal scheme. Anything else needs its own native port.
 
 ## Install
 
