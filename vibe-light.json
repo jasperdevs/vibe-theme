@@ -1,175 +1,224 @@
 {
   "$schema": "https://opencode.ai/theme.json",
   "defs": {
-    "white": "#fafafa",
-    "bg": "#f2f2f2",
-    "panel": "#e8e8e8",
-    "element": "#dfdfdf",
-    "border0": "#d0d0d0",
-    "border1": "#c0c0c0",
-    "border2": "#aaaaaa",
-    "gray1": "#999999",
-    "gray2": "#777777",
+    "bg": "#f0f0f0",
+    "panel": "#e6e6e6",
+    "element": "#dbdbdb",
+    "border0": "#cccccc",
+    "border1": "#bbbbbb",
+    "border2": "#a0a0a0",
+    "gray1": "#909090",
+    "gray2": "#737373",
     "gray3": "#5a5a5a",
-    "gray4": "#444444",
-    "gray5": "#2e2e2e",
+    "gray4": "#414141",
+    "gray5": "#2b2b2b",
     "black": "#1a1a1a",
     "deepBlack": "#111111",
-    "red": "#c44040",
-    "green": "#3a8a3a",
-    "yellow": "#9a8520",
-    "redBg": "#fce8e8",
-    "greenBg": "#e8fce8"
+    "red": "#b83a3a",
+    "green": "#3a7a3a",
+    "yellow": "#8a7520",
+    "redBg": "#f2dede",
+    "greenBg": "#def2de"
   },
   "theme": {
     "primary": {
+      "dark": "black",
       "light": "black"
     },
     "secondary": {
+      "dark": "gray4",
       "light": "gray4"
     },
     "accent": {
+      "dark": "gray5",
       "light": "gray5"
     },
     "error": {
+      "dark": "red",
       "light": "red"
     },
     "warning": {
+      "dark": "yellow",
       "light": "yellow"
     },
     "success": {
+      "dark": "green",
       "light": "green"
     },
     "info": {
+      "dark": "gray4",
       "light": "gray4"
     },
     "text": {
+      "dark": "black",
       "light": "black"
     },
     "textMuted": {
+      "dark": "gray2",
       "light": "gray2"
     },
     "background": {
+      "dark": "bg",
       "light": "bg"
     },
     "backgroundPanel": {
+      "dark": "panel",
       "light": "panel"
     },
     "backgroundElement": {
+      "dark": "element",
       "light": "element"
     },
     "border": {
+      "dark": "border0",
       "light": "border0"
     },
     "borderActive": {
+      "dark": "border2",
       "light": "border2"
     },
     "borderSubtle": {
+      "dark": "border1",
       "light": "border1"
     },
     "diffAdded": {
+      "dark": "green",
       "light": "green"
     },
     "diffRemoved": {
+      "dark": "red",
       "light": "red"
     },
     "diffContext": {
+      "dark": "gray1",
       "light": "gray1"
     },
     "diffHunkHeader": {
+      "dark": "gray2",
       "light": "gray2"
     },
     "diffHighlightAdded": {
+      "dark": "green",
       "light": "green"
     },
     "diffHighlightRemoved": {
+      "dark": "red",
       "light": "red"
     },
     "diffAddedBg": {
+      "dark": "greenBg",
       "light": "greenBg"
     },
     "diffRemovedBg": {
+      "dark": "redBg",
       "light": "redBg"
     },
     "diffContextBg": {
+      "dark": "panel",
       "light": "panel"
     },
     "diffLineNumber": {
+      "dark": "gray1",
       "light": "gray1"
     },
     "diffAddedLineNumberBg": {
+      "dark": "greenBg",
       "light": "greenBg"
     },
     "diffRemovedLineNumberBg": {
+      "dark": "redBg",
       "light": "redBg"
     },
     "markdownText": {
+      "dark": "black",
       "light": "black"
     },
     "markdownHeading": {
+      "dark": "deepBlack",
       "light": "deepBlack"
     },
     "markdownLink": {
+      "dark": "gray4",
       "light": "gray4"
     },
     "markdownLinkText": {
+      "dark": "gray5",
       "light": "gray5"
     },
     "markdownCode": {
+      "dark": "gray4",
       "light": "gray4"
     },
     "markdownBlockQuote": {
+      "dark": "gray2",
       "light": "gray2"
     },
     "markdownEmph": {
+      "dark": "gray4",
       "light": "gray4"
     },
     "markdownStrong": {
+      "dark": "deepBlack",
       "light": "deepBlack"
     },
     "markdownHorizontalRule": {
+      "dark": "border1",
       "light": "border1"
     },
     "markdownListItem": {
+      "dark": "gray3",
       "light": "gray3"
     },
     "markdownListEnumeration": {
+      "dark": "gray3",
       "light": "gray3"
     },
     "markdownImage": {
+      "dark": "gray4",
       "light": "gray4"
     },
     "markdownImageText": {
+      "dark": "gray5",
       "light": "gray5"
     },
     "markdownCodeBlock": {
+      "dark": "gray4",
       "light": "gray4"
     },
     "syntaxComment": {
+      "dark": "gray1",
       "light": "gray1"
     },
     "syntaxKeyword": {
+      "dark": "gray4",
       "light": "gray4"
     },
     "syntaxFunction": {
+      "dark": "gray5",
       "light": "gray5"
     },
     "syntaxVariable": {
+      "dark": "black",
       "light": "black"
     },
     "syntaxString": {
+      "dark": "gray3",
       "light": "gray3"
     },
     "syntaxNumber": {
+      "dark": "gray3",
       "light": "gray3"
     },
     "syntaxType": {
+      "dark": "gray4",
       "light": "gray4"
     },
     "syntaxOperator": {
+      "dark": "gray3",
       "light": "gray3"
     },
     "syntaxPunctuation": {
+      "dark": "gray2",
       "light": "gray2"
     }
   }
