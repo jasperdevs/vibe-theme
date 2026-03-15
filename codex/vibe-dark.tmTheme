@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>name</key>
+  <string>Vibe Dark</string>
+  <key>settings</key>
+  <array>
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#dcdcdc</string>
+        <key>background</key>
+        <string>#161616</string>
+        <key>caret</key>
+        <string>#dcdcdc</string>
+        <key>selection</key>
+        <string>#333333</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Comments</string>
+      <key>scope</key>
+      <string>comment, punctuation.definition.comment</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#4a4a4a</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Keywords</string>
+      <key>scope</key>
+      <string>keyword, keyword.control, storage, storage.modifier, storage.type</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#dcdcdc</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Strings</string>
+      <key>scope</key>
+      <string>string, constant.character, constant.other.symbol</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#dcdcdc</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Numbers and constants</string>
+      <key>scope</key>
+      <string>constant.numeric, constant.language, constant.character.escape</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#dcdcdc</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Functions</string>
+      <key>scope</key>
+      <string>entity.name.function, support.function</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#dcdcdc</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Types</string>
+      <key>scope</key>
+      <string>entity.name.type, entity.name.class, support.type, support.class</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#dcdcdc</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Inserted diff</string>
+      <key>scope</key>
+      <string>markup.inserted, diff.inserted</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#dcdcdc</string>
+        <key>background</key>
+        <string>#141e14</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Deleted diff</string>
+      <key>scope</key>
+      <string>markup.deleted, diff.deleted</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#dcdcdc</string>
+        <key>background</key>
+        <string>#1e1418</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Changed diff</string>
+      <key>scope</key>
+      <string>markup.changed, diff.changed</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#dcdcdc</string>
+        <key>background</key>
+        <string>#2c2612</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Invalid</string>
+      <key>scope</key>
+      <string>invalid, invalid.illegal</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ffffff</string>
+        <key>background</key>
+        <string>#5a1f1f</string>
+      </dict>
+    </dict>
+  </array>
+</dict>
+</plist>
