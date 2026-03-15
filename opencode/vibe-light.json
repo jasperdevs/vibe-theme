@@ -194,8 +194,8 @@
       "light": "gray4"
     },
     "syntaxFunction": {
-      "dark": "gray5",
-      "light": "gray5"
+      "dark": "black",
+      "light": "black"
     },
     "syntaxVariable": {
       "dark": "black",
