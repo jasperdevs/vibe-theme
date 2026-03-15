@@ -2,13 +2,21 @@
 
 A minimal monochrome theme set.
 
-![Vibe Theme Preview](assets/hero-preview.png)
+![Vibe Dark](assets/hero-dark.png)
+
+![Vibe Light](assets/hero-light.png)
 
 Syntax stays grayscale. Diffs, errors, warnings, and git states keep their color.
 
 This repo ships a few ready-to-use ports and a shared palette for making more.
 
 Terminal tools that inherit terminal colors will pick up the terminal scheme. Anything else needs its own native port.
+
+## Prompt
+
+```text
+Install Vibe Theme across my setup. Use the included ports where available, use the terminal scheme for terminal-based tools, and default to Vibe Dark unless I already use light themes.
+```
 
 ## Install
 
