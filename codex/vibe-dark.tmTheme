@@ -10,11 +10,11 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#dcdcdc</string>
+        <string>#d8d3cf</string>
         <key>background</key>
         <string>#161616</string>
         <key>caret</key>
-        <string>#dcdcdc</string>
+        <string>#d8d3cf</string>
         <key>selection</key>
         <string>#333333</string>
       </dict>
@@ -38,7 +38,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#dcdcdc</string>
+        <string>#d8d3cf</string>
         <key>fontStyle</key>
         <string>bold</string>
       </dict>
@@ -51,7 +51,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#dcdcdc</string>
+        <string>#d8d3cf</string>
       </dict>
     </dict>
     <dict>
@@ -62,7 +62,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#dcdcdc</string>
+        <string>#d8d3cf</string>
       </dict>
     </dict>
     <dict>
@@ -73,7 +73,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#dcdcdc</string>
+        <string>#d8d3cf</string>
       </dict>
     </dict>
     <dict>
@@ -84,7 +84,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#dcdcdc</string>
+        <string>#d8d3cf</string>
       </dict>
     </dict>
     <dict>
@@ -95,7 +95,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#dcdcdc</string>
+        <string>#d8d3cf</string>
         <key>background</key>
         <string>#141e14</string>
       </dict>
@@ -108,7 +108,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#dcdcdc</string>
+        <string>#d8d3cf</string>
         <key>background</key>
         <string>#1e1418</string>
       </dict>
@@ -121,7 +121,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#dcdcdc</string>
+        <string>#d8d3cf</string>
         <key>background</key>
         <string>#2c2612</string>
       </dict>

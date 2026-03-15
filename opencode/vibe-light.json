@@ -190,36 +190,36 @@
       "light": "gray1"
     },
     "syntaxKeyword": {
-      "dark": "black",
-      "light": "black"
+      "dark": "#6d5f66",
+      "light": "#6d5f66"
     },
     "syntaxFunction": {
-      "dark": "black",
-      "light": "black"
+      "dark": "#23201e",
+      "light": "#23201e"
     },
     "syntaxVariable": {
       "dark": "black",
       "light": "black"
     },
     "syntaxString": {
-      "dark": "black",
-      "light": "black"
+      "dark": "#6f6661",
+      "light": "#6f6661"
     },
     "syntaxNumber": {
-      "dark": "black",
-      "light": "black"
+      "dark": "#6d6762",
+      "light": "#6d6762"
     },
     "syntaxType": {
-      "dark": "black",
-      "light": "black"
+      "dark": "#666471",
+      "light": "#666471"
     },
     "syntaxOperator": {
-      "dark": "black",
-      "light": "black"
+      "dark": "#686868",
+      "light": "#686868"
     },
     "syntaxPunctuation": {
-      "dark": "black",
-      "light": "black"
+      "dark": "#6a6a6a",
+      "light": "#6a6a6a"
     }
   }
 }
