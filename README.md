@@ -4,7 +4,7 @@ A minimal monochrome theme set.
 
 ![Vibe Theme Preview](assets/preview.png)
 
-Syntax stays grayscale. Diffs, errors, warnings, and git states keep color.
+Syntax stays grayscale. Diffs, errors, warnings, and git states keep their color.
 
 This repo ships a few ready-to-use ports and a shared palette for making more.
 
@@ -46,7 +46,7 @@ code --install-extension vibe-theme-1.0.0.vsix
 
 Then open the theme picker and choose `Vibe Dark` or `Vibe Light`.
 
-More:
+Docs:
 
 - [OpenCode](docs/opencode.md)
 - [VS Code](docs/vscode.md)
