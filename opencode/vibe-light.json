@@ -190,8 +190,8 @@
       "light": "gray1"
     },
     "syntaxKeyword": {
-      "dark": "gray4",
-      "light": "gray4"
+      "dark": "black",
+      "light": "black"
     },
     "syntaxFunction": {
       "dark": "black",
@@ -202,24 +202,24 @@
       "light": "black"
     },
     "syntaxString": {
-      "dark": "gray3",
-      "light": "gray3"
+      "dark": "black",
+      "light": "black"
     },
     "syntaxNumber": {
-      "dark": "gray3",
-      "light": "gray3"
+      "dark": "black",
+      "light": "black"
     },
     "syntaxType": {
-      "dark": "gray4",
-      "light": "gray4"
+      "dark": "black",
+      "light": "black"
     },
     "syntaxOperator": {
-      "dark": "gray3",
-      "light": "gray3"
+      "dark": "black",
+      "light": "black"
     },
     "syntaxPunctuation": {
-      "dark": "gray2",
-      "light": "gray2"
+      "dark": "black",
+      "light": "black"
     }
   }
 }
