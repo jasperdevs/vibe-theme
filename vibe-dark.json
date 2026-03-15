@@ -15,11 +15,11 @@
     "gray5": "#c8c8c8",
     "white": "#dcdcdc",
     "brightWhite": "#eeeeee",
-    "red": "#e06060",
-    "green": "#6ec46e",
-    "yellow": "#d4b84d",
-    "redBg": "#2a1515",
-    "greenBg": "#152a15"
+    "red": "#c45050",
+    "green": "#5aaa5a",
+    "yellow": "#c4a840",
+    "redBg": "#1e1418",
+    "greenBg": "#141e14"
   },
   "theme": {
     "primary": {
@@ -68,10 +68,10 @@
       "dark": "border1"
     },
     "diffAdded": {
-      "dark": "green"
+      "dark": "gray5"
     },
     "diffRemoved": {
-      "dark": "red"
+      "dark": "gray5"
     },
     "diffContext": {
       "dark": "gray1"
