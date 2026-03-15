@@ -5,15 +5,31 @@
   "version": "1.0.0",
   "publisher": "jasprcodess",
   "license": "MIT",
+  "homepage": "https://github.com/jasprcodess/vibe-theme#readme",
   "engines": {
     "vscode": "^1.60.0"
   },
   "categories": ["Themes"],
   "keywords": ["theme", "monochrome", "minimal", "vibecoding", "dark", "light"],
+  "galleryBanner": {
+    "color": "#161616",
+    "theme": "dark"
+  },
+  "icon": "icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/jasprcodess/vibe-theme"
   },
+  "bugs": {
+    "url": "https://github.com/jasprcodess/vibe-theme/issues"
+  },
+  "files": [
+    "themes",
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "icon.png"
+  ],
   "contributes": {
     "themes": [
       {
