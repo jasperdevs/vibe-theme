@@ -1,0 +1,23 @@
+{
+  "name": "Vibe Dark",
+  "background": "#161616",
+  "foreground": "#dcdcdc",
+  "cursorColor": "#dcdcdc",
+  "selectionBackground": "#333333",
+  "black": "#161616",
+  "red": "#c45050",
+  "green": "#5aaa5a",
+  "yellow": "#c4a840",
+  "blue": "#8a8a8a",
+  "purple": "#a8a8a8",
+  "cyan": "#8a8a8a",
+  "white": "#dcdcdc",
+  "brightBlack": "#4a4a4a",
+  "brightRed": "#d46060",
+  "brightGreen": "#6abb6a",
+  "brightYellow": "#d4b850",
+  "brightBlue": "#a8a8a8",
+  "brightPurple": "#c8c8c8",
+  "brightCyan": "#a8a8a8",
+  "brightWhite": "#eeeeee"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "vibe-theme",
+  "displayName": "Vibe Theme",
+  "description": "Monochrome theme for vibecoders. Grayscale syntax, colored diffs.",
+  "version": "1.0.0",
+  "publisher": "jasprcodess",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": ["Themes"],
+  "keywords": ["theme", "monochrome", "minimal", "vibecoding", "dark", "light"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasprcodess/vibe-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "vibe-dark",
+        "label": "Vibe Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vibe-dark-color-theme.json"
+      },
+      {
+        "id": "vibe-light",
+        "label": "Vibe Light",
+        "uiTheme": "vs",
+        "path": "./themes/vibe-light-color-theme.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Vibe Light",
+  "background": "#f0f0f0",
+  "foreground": "#1a1a1a",
+  "cursorColor": "#1a1a1a",
+  "selectionBackground": "#cccccc",
+  "black": "#f0f0f0",
+  "red": "#b83a3a",
+  "green": "#3a7a3a",
+  "yellow": "#8a7520",
+  "blue": "#5a5a5a",
+  "purple": "#414141",
+  "cyan": "#5a5a5a",
+  "white": "#1a1a1a",
+  "brightBlack": "#909090",
+  "brightRed": "#c44a4a",
+  "brightGreen": "#4a8a4a",
+  "brightYellow": "#9a8530",
+  "brightBlue": "#414141",
+  "brightPurple": "#2b2b2b",
+  "brightCyan": "#414141",
+  "brightWhite": "#111111"
+}
