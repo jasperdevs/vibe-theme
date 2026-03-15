@@ -2,7 +2,7 @@
 
 A minimal monochrome theme set.
 
-![Vibe Theme Preview](assets/preview.png)
+![Vibe Theme Preview](assets/hero-preview.png)
 
 Syntax stays grayscale. Diffs, errors, warnings, and git states keep their color.
 
