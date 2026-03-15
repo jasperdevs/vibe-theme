@@ -322,6 +322,10 @@
       "settings": { "foreground": "#909090", "fontStyle": "italic" }
     },
     {
+      "scope": ["source", "text", "meta.embedded"],
+      "settings": { "foreground": "#1a1a1a" }
+    },
+    {
       "scope": ["string", "string.quoted", "string.template", "string.regexp"],
       "settings": { "foreground": "#5a5a5a" }
     },
@@ -334,8 +338,16 @@
       "settings": { "foreground": "#414141" }
     },
     {
+      "scope": ["constant.language.python", "support.function.builtin.python", "support.type.python", "support.type.exception.python"],
+      "settings": { "foreground": "#1a1a1a", "fontStyle": "" }
+    },
+    {
       "scope": ["keyword", "keyword.control", "storage", "storage.type", "storage.modifier"],
       "settings": { "foreground": "#414141" }
+    },
+    {
+      "scope": ["keyword.operator.assignment", "keyword.operator.arithmetic", "keyword.operator.comparison", "keyword.operator.logical"],
+      "settings": { "foreground": "#5a5a5a" }
     },
     {
       "scope": "keyword.operator",
@@ -351,6 +363,10 @@
     },
     {
       "scope": ["variable", "variable.other", "support.variable", "variable.parameter"],
+      "settings": { "foreground": "#1a1a1a" }
+    },
+    {
+      "scope": ["meta.function.parameters", "meta.arguments", "meta.group", "meta.parens", "meta.brace", "meta.brackets"],
       "settings": { "foreground": "#1a1a1a" }
     },
     {
