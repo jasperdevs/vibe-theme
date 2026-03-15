@@ -2,7 +2,7 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Vibe Dark",
   "type": "dark",
-  "semanticHighlighting": true,
+  "semanticHighlighting": false,
   "colors": {
     "foreground": "#dcdcdc",
     "focusBorder": "#404040",
@@ -342,11 +342,11 @@
       "settings": { "foreground": "#8a8a8a" }
     },
     {
-      "scope": ["entity.name.function", "support.function", "support.function.builtin", "support.function.misc", "meta.function-call"],
+      "scope": ["entity.name.function", "support.function", "support.function.builtin", "support.function.misc", "support.function.builtin.python", "meta.function-call", "meta.function-call.generic.python"],
       "settings": { "foreground": "#dcdcdc" }
     },
     {
-      "scope": ["entity.name.type", "entity.name.class", "entity.name.namespace", "support.type", "support.type.builtin", "support.class", "storage.type.annotation"],
+      "scope": ["entity.name.type", "entity.name.class", "entity.name.namespace", "support.type", "support.type.builtin", "support.type.python", "support.type.exception.python", "support.class", "storage.type.annotation"],
       "settings": { "foreground": "#a8a8a8" }
     },
     {
@@ -366,7 +366,7 @@
       "settings": { "foreground": "#a8a8a8" }
     },
     {
-      "scope": ["meta.indexed-name", "meta.attribute.python", "meta.function-call.python"],
+      "scope": ["meta.indexed-name", "meta.attribute.python", "meta.function-call.python", "support.variable.magic.python", "support.function.magic.python"],
       "settings": { "foreground": "#dcdcdc" }
     },
     {
@@ -433,33 +433,5 @@
       "scope": ["entity.name.tag.css", "entity.other.attribute-name.class.css", "entity.other.attribute-name.id.css"],
       "settings": { "foreground": "#a8a8a8" }
     }
-  ],
-  "semanticTokenColors": {
-    "variable": "#dcdcdc",
-    "newOperator": "#8a8a8a",
-    "operator": "#8a8a8a",
-    "stringLiteral": "#8a8a8a",
-    "numberLiteral": "#8a8a8a",
-    "customLiteral": "#8a8a8a",
-    "boolean": "#a8a8a8",
-    "regexp": "#8a8a8a",
-    "variable.declaration": "#dcdcdc",
-    "variable.readonly": "#c8c8c8",
-    "variable.defaultLibrary": "#dcdcdc",
-    "function": "#dcdcdc",
-    "function.declaration": "#dcdcdc",
-    "function.defaultLibrary": "#dcdcdc",
-    "method": "#dcdcdc",
-    "method.defaultLibrary": "#dcdcdc",
-    "parameter": "#dcdcdc",
-    "property": "#a8a8a8",
-    "type": "#a8a8a8",
-    "type.defaultLibrary": "#a8a8a8",
-    "class": "#a8a8a8",
-    "interface": "#a8a8a8",
-    "enum": "#a8a8a8",
-    "enumMember": "#c8c8c8",
-    "namespace": "#a8a8a8",
-    "keyword": "#a8a8a8"
-  }
+  ]
 }
